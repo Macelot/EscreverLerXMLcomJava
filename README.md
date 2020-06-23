@@ -10,4 +10,7 @@ O projeto de hoje faz a criação de um arquivo caso este não exista. O Conteú
   </post>
 </Posts>
 
+Exemplo de xml -> xmlfile.xml
+
+
 Caso o arquivo já exista será adicionado mais um “Hello”, com a respectiva contagem.
