@@ -56,9 +56,9 @@ public class Teste {
             TransformerFactory tf = TransformerFactory.newInstance();
             //para manter identação correta
             Transformer t = tf.newTransformer(new StreamSource(new File("c:\\temp\\xslt.xslt")));
-            t.setOutputProperty(OutputKeys.INDENT,"yes");
-            t.setOutputProperty(OutputKeys.METHOD, "xml");
-            t.setOutputProperty( "{http://xml.apache.org/xslt}indent-amount", "2" );
+            //t.setOutputProperty(OutputKeys.INDENT,"yes");
+            //t.setOutputProperty(OutputKeys.METHOD, "xml");
+            //t.setOutputProperty( "{http://xml.apache.org/xslt}indent-amount", "2" );
 
 
             DOMSource domSource = new DOMSource(d);
